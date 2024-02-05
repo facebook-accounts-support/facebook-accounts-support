@@ -1,0 +1,24 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.mb-4 {
+    width: 90%;
+}
+.mb-4>h2 {
+    width: 80%;
+    margin: 5rem auto;
+}
+.mb-4 p {
+    margin: 1rem;
+}
+.block{
+    max-width: 90%;
+    margin: 2rem auto;
+}
+.wrap{
+    width: 90%;
+}
+.wrap p {
+    margin: 1rem;
+}
