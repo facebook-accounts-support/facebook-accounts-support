@@ -36,6 +36,12 @@ body{
     /* text-align: center; */
     margin: 0;
 }
+#message1 {
+    display: none;
+    color: red;
+    position: relative;
+    margin-top: 10px;
+}
 
 .btn123 {
     width: 90%;
